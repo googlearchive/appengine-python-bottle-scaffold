@@ -1,0 +1,4 @@
+*.pyc
+server/lib
+.DS_Store
+

@@ -1,0 +1,7 @@
+# This requirements file lists all dependecies for this project.
+# Run 'pip install -r requirements.txt -t server/lib' to install these dependencies
+# in this project's server/lib directory.  The project's .gitignore is already
+# setup to ignore the contents of the lib directory.  Note that App Engine
+# requires that project dependencies be installed inside the project directory
+# in order to be deployed with your application.
+bottle==0.11.6
