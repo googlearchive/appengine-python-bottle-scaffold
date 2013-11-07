@@ -52,6 +52,7 @@ To deploy the application:
 appcfg.py --oauth2 update [projectDirectory]
 ```
 or use the App Engine Launcher.
+1. Congratulations! Your application is now live at your-app-id.appspot.com
 
 ## Next Steps
 This scaffold includes TODO markers you can search for to determine some of the
