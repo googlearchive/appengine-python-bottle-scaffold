@@ -44,12 +44,12 @@ for options when running dev_appserver.
 ## Deploy
 To deploy the application:
 
-1. Use the [Admin Console](https://appengine.google.com) to create an app.
-1. Replace `your-app-id` in `app.yaml` with the app id from the previous step.
+1. Use the [Admin Console](https://appengine.google.com) to create an app and
+   get the project/app id. (App id and project id are identical)
 1. [Deploy the
    application](https://developers.google.com/appengine/docs/python/tools/uploadinganapp) with
 ```
-appcfg.py --oauth2 update [projectDirectory]
+appcfg.py -A <your-project-id> --oauth2 update <projectDirectory>
 ```
 or use the App Engine Launcher.
 1. Congratulations! Your application is now live at your-app-id.appspot.com
