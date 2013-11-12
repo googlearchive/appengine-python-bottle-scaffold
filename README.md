@@ -26,6 +26,7 @@ See the README file for directions. You'll need python 2.7 and [pip 1.4 or later
    ```
 3. Install dependencies in the project's server/lib directory - App Engine
    can only import libraries from inside your project directory.
+
    ```
    cd <project_directory>
    pip install -r requirements.txt -t server/lib
@@ -48,11 +49,12 @@ To deploy the application:
    get the project/app id. (App id and project id are identical)
 1. [Deploy the
    application](https://developers.google.com/appengine/docs/python/tools/uploadinganapp) with
+
 ```
 appcfg.py -A <your-project-id> --oauth2 update <projectDirectory>
 ```
 or use the App Engine Launcher.
-1. Congratulations! Your application is now live at your-app-id.appspot.com
+1. Congratulations! Your application is now live at your-project-id.appspot.com
 
 ## Next Steps
 This scaffold includes TODO markers you can search for to determine some of the
