@@ -1,5 +1,11 @@
 {
   "template_name" : "Bottle web framework",
   "template_description" : "Scaffold app based on the Bottle Web Framework (http://bottlepy.org/)",
-  "show_files": []
+  "show_files": [
+    "main.py",
+    "server/controllers/RESOURCE_NAME_controller.py",
+    "server/controllers/view_helper.py",
+    "server/models/RESOURCE_NAME.py",
+    "server/views/show.html",
+  ]
 }
