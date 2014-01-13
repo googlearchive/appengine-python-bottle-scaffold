@@ -6,6 +6,6 @@
     "server/controllers/RESOURCE_NAME_controller.py",
     "server/controllers/view_helper.py",
     "server/models/RESOURCE_NAME.py",
-    "server/views/show.html",
+    "server/views/show.html"
   ]
 }
