@@ -5,9 +5,13 @@ handler.
 """
 
 # import the Bottle framework
+from server.lib import bottle
 from server.lib.bottle import Bottle
 # TODO: name and list your controllers here so their routes become accessible.
 from server.controllers import RESOURCE_NAME_controller
+
+# Enable debugging, which gives us tracebacks
+bottle.DEBUG = True
 
 # Run the Bottle wsgi application. We don't need to call run() since our
 # application is embedded within an App Engine WSGI application server.
@@ -27,5 +31,3 @@ def home():
 def error_404(error):
   """Return a custom 404 error."""
   return 'Sorry, Nothing at this URL.'
-
-
