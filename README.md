@@ -1,5 +1,7 @@
 ## Python Bottle Framework Scaffold for Google App Engine
 
++![status: inactive](https://img.shields.io/badge/status-inactive-red.svg)
+
 A scaffold for building Python applications on Google App Engine with the
 [Bottle micro framework](http://bottlepy.org) version 0.11.6
 
